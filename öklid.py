@@ -1,9 +1,9 @@
 import math
 
 points = [
-    (1, 2),
-    (3, 4),
-    (6, 8),
+    (1, 3),
+    (3, 5),
+    (6, 9),
     (2, 1)
 ]
 def euclideanDistance(point1, point2):
@@ -14,4 +14,4 @@ for i in range(len(points)):
         dist = euclideanDistance(points[i], points[j])
         distances.append(dist)
 min_distance = min(distances)
-print("Minimum Öklid Mesafesi:", min_distance)
+print(min_distance)
